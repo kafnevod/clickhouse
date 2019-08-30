@@ -45,11 +45,17 @@ $ sh spoon.sh &
 - Custom driver class name: `ru.yandx.clickhouse.ClickHouseDriver`
 - Имя и пароль в полях `Username:`, `Password:`
 
-7. Кликните по клваише `Test`. Дожно появиться окно с текстом: `Connection to clickhouse was successful.`
+![Конфигурирование драйвера clickhouse](./images/clickhouse_conf.png)
 
-8. Кликните по клавише `Feature List` для просмотра поддерживаемой функционльности драйвера ClikHouse
+7. Кликните по клавише `Test`. Дожно появиться окно с текстом: `Connection to clickhouse was successful.`
+
+8. Кликните по клавише `Feature List` для просмотра поддерживаемой функциональности драйвера ClikHouse
+
+![Ппросмотр поддерживаемой функциональности](images/feature.png)
 
 9. Кликните по клавише `Explore` для просмотра информации по существующим в базе данных
 `Schemas`, `Tables`, `Views`, `Synonyms`
+
+![Просмотр структуры базы](images/explore.png)
 
 Кириллические имена в именах поддерживаются.
